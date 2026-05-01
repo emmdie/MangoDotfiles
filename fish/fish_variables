@@ -1,0 +1,6 @@
+# This file contains fish universal variable definitions.
+# VERSION: 3.0
+SETUVAR --export SWAYSOCK:\x1d
+SETUVAR __fish_initialized:4300
+SETUVAR fish_greeting:\U0001f41f
+SETUVAR fish_user_paths:/home/emmdie/\x2ecargo/bin
