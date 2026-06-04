@@ -125,7 +125,7 @@ tooltip {
   border-color: #c9b890;
   margin-right: 4px;
   margin-left: 0px;
-  padding-right: 8px;
+  padding-right: 14px;
   padding-left: 9px;
   padding-top: 2px;
   color: #ddca9e;
@@ -276,6 +276,7 @@ tooltip {
   border-radius: 0px;
   border-right: 0px;
   border-left: 0px;
+  padding-right: 14px;
 }
 
 #custom-notification {
