@@ -3,3 +3,4 @@ theme = "gruvbox"
 [editor]
 # Sync clipboard with system clipboard
 default-yank-register = "+"
+end-of-line-diagnostics = "hint"
