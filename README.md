@@ -8,6 +8,7 @@ Current config for my laptop.
 - Window manager: [Mango](https://mangowm.github.io/)
 - Bar: [waybar](https://github.com/alexays/waybar)
 - Shell: Fish (required for layout script, chose this because of jvns.ca recommendation)
+  - Plugins: [Fisher](https://github.com/jorgebucaran/fisher), [Sponge](https://github.com/meaningful-ooo/sponge), [Autopair](https://github.com/jorgebucaran/autopair.fish)
 - Colours: [Gruvbox Dark](https://github.com/morhetz/gruvbox)
 - Screenshots: wayfreeze, grim, slurp
 - lock screen: swayidle, swaylock
