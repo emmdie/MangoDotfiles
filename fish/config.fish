@@ -27,6 +27,14 @@ function fish_greeting
     set_color normal
 end
 
+function cp
+    /usr/local/bin/advcp -g $argv
+end
+
+function mv
+    /usr/local/bin/advmv -g $argv
+end
+
 if status is-interactive
     # Commands to run in interactive sessions can go here
 end
