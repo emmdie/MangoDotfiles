@@ -1,4 +1,4 @@
-Current config for my laptop. 
+Current config for my laptop. Built arround MangoWC with [Gruvbox](https://github.com/morhetz/gruvbox) colours
 # Screenshots
 <img width="1919" height="1200" alt="image" src="https://github.com/user-attachments/assets/82584841-e84d-4bd5-a82e-98560d124c51" />
 <img width="1919" height="1200" alt="image" src="https://github.com/user-attachments/assets/ac84b26e-e864-4cee-b586-361ea82e3a43" />
