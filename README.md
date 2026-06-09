@@ -7,6 +7,7 @@ Current config for my laptop. Built arround MangoWC with [Gruvbox](https://githu
 # Software
 - Window manager: [Mango](https://mangowm.github.io/)
 - Bar: [waybar](https://github.com/alexays/waybar)
+
 ## Shell
 Fish (required for layout script, chose this because of jvns.ca recommendation)
 ### Plugins:
@@ -15,8 +16,10 @@ Fish (required for layout script, chose this because of jvns.ca recommendation)
 * [Autopair](https://github.com/jorgebucaran/autopair.fish)
 * [Tide](https://github.com/IlanCosman/tide)
 ### Aliases
-Check fish config, additionally I use [advcpmv](https://github.com/jarun/advcpmv) instead of cp and mv
-
+- defined in myabbrs.fish
+- Check fish config, additionally I use [advcpmv](https://github.com/jarun/advcpmv) instead of cp and mv
+## Terminal
+ghostty
 ## Screenshots
 wayfreeze, grim, slurp
 ## lock screen
