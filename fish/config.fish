@@ -40,6 +40,3 @@ if status is-interactive
 end
 # This prevents me from installing packages with pip without being in a virtualenv first.
 set -g -x PIP_REQUIRE_VIRTUALENV true
-
-# ABBREVIATIONS
-abbr --add hx helix
