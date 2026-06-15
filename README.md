@@ -5,7 +5,8 @@ Current config for my laptop. Built arround MangoWC with [Gruvbox](https://githu
 <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/5ec8f0bd-6017-440d-9fc8-748c6df86f53" />
 
 # Software
-- Window manager: [Mango](https://mangowm.github.io/)
+## Window manager: [Mango](https://mangowm.github.io/)
+- MDisplay for configuring monitors
 - Bar: [waybar](https://github.com/alexays/waybar)
 
 ## Shell
@@ -18,8 +19,50 @@ Fish (required for layout script, chose this because of jvns.ca recommendation)
 ### Aliases
 - defined in myabbrs.fish
 - Check fish config, additionally I use [advcpmv](https://github.com/jarun/advcpmv) instead of cp and mv
+### System status display
+I like to display a small System status display upon opening a new Shell like so:  21:06 │ 󰍛 4.4Gi/15Gi │ 󰘚 2% │ 󰋊 36% │ Pacman: 󰚰 80
+This requires two scripts to download upgradeable packages daily in the background and show the current count of downloaded packages.
+
+<details>
+  <summary>Scripts</summary>
+  ### 
+
+  ### /etc/systemd/system/pacman-download.timer
+  ```systemd
+  [Unit]
+  Description=Timer for downloading package updates
+
+  [Timer]
+  OnCalendar=daily
+  Persistent=true
+
+  [Install]
+  WantedBy=timers.target
+  
+  ```
+  
+  ### /etc/systemd/system/pacman-download.timer
+  ```systemd
+  [Unit]
+  Description=Download available package updates (no install)
+
+  [Service]
+  Type=oneshot
+  ExecStart=/usr/bin/pacman -Syuw --noconfirm
+  
+   ```
+  Start the timer:
+  ```bash
+  sudo systemctl daemon-reload
+  sudo systemctl enable --now pacman-download.timer
+
+  ```
+  
+</details>
+
 ## Terminal
 ghostty
+
 ## Screenshots
 wayfreeze, grim, slurp
 ## lock screen
@@ -27,5 +70,9 @@ wayfreeze, grim, slurp
 * swaylock
 ## Browser
 - Firefox with mtab, Slop evader, keepassxc, uBlock origin, pawBlock and gruvbox dark theme
+
 ## Utils
+### System
 - Paccache for cleaning pacman cache
+### Productivity
+- pomotime (installed via pipx)
