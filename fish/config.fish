@@ -20,7 +20,7 @@ function fish_greeting
     set_color brblack
     printf "│ "
     set_color magenta
-    printf "Pacman: 󰚰 %s " (checkupdates 2>/dev/null | count)
+    printf "Pacman: 󰚰 %s " (pacman_cached_upgrades_count)
 
     printf "\n"
 
@@ -35,8 +35,28 @@ function mv
     /usr/local/bin/advmv -g $argv
 end
 
+function pacman_cached_upgrades_count
+    set count 0
+    set arch (uname -m)
+    for line in (pacman -Qu)
+        # Parse package name and new version (handles epoch)
+        set pkg (string split ' ' $line | head -n1)
+        set newver (string split ' ' $line | string split ' -> ' | tail -n1)
+        # Build the glob pattern for the cache file
+        set pattern /var/cache/pacman/pkg/$pkg-$newver-$arch.pkg.tar.zst
+        set matches $pattern
+        if set -q matches[1]
+            set count (math $count + 1)
+        end
+    end
+    echo $count
+end
+
 if status is-interactive
     # Commands to run in interactive sessions can go here
 end
 # This prevents me from installing packages with pip without being in a virtualenv first.
 set -g -x PIP_REQUIRE_VIRTUALENV true
+
+# Created by `pipx` on 2026-06-12 08:47:33
+set PATH $PATH /home/emmdie/.local/bin
