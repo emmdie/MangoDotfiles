@@ -135,6 +135,7 @@
     "scroll-step": 5
   },
   "battery": {
+    "bat": "BAT0", // <-- I experienced waybar crashes when unplugging and plugging my Laptop from the doc. This was due to the battery of my logitech webcam apparently being detected. 
     "states": {
       "good": 95,
       "warning": 30,
