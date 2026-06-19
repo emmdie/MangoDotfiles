@@ -8,19 +8,24 @@ Current config for my laptop. Built arround MangoWC with [Gruvbox](https://githu
 ## Window manager: [Mango](https://mangowm.github.io/)
 - MDisplay for configuring monitors
 - Bar: [waybar](https://github.com/alexays/waybar)
+  - The config includes only modules essential for me to avoid visual clutter
+  - The Battery widget features a hardcoded battery selection (BAT0) due to crashes when unplugging a webcam with battery. You might want to modify this when running a multi-battery laptop
 
 ## Shell
 Fish (required for layout script, chose this because of jvns.ca recommendation)
 ### Plugins:
-* [Fisher](https://github.com/jorgebucaran/fisher)
-* [Sponge](https://github.com/meaningful-ooo/sponge)
-* [Autopair](https://github.com/jorgebucaran/autopair.fish)
-* [Tide](https://github.com/IlanCosman/tide)
+* [Fisher](https://github.com/jorgebucaran/fisher) (Plugin manager)
+* [Sponge](https://github.com/meaningful-ooo/sponge) (Removes wrong commands from history)
+* [Autopair](https://github.com/jorgebucaran/autopair.fish) (Matches brackets)
+* [Tide](https://github.com/IlanCosman/tide) (Prettier/Better fish prompt)
+* [fzf.fish](https://github.com/PatrickF1/fzf.fish) (Fuzzy search for paths, commands, git stuff...)
+
 ### Aliases
 - defined in myabbrs.fish
 - Check fish config, additionally I use [advcpmv](https://github.com/jarun/advcpmv) instead of cp and mv
 ### System status display
-I like to display a small System status display upon opening a new Shell like so:  21:06 │ 󰍛 4.4Gi/15Gi │ 󰘚 2% │ 󰋊 36% │ Pacman: 󰚰 80
+I like to display a small System status display upon opening a new Shell like so:
+   21:06 │ 󰍛 4.4Gi/15Gi │ 󰘚 2% │ 󰋊 36% │ Pacman: 󰚰 80
 This requires two scripts to download upgradeable packages daily in the background and show the current count of downloaded packages.
 
 <details>
@@ -60,6 +65,9 @@ This requires two scripts to download upgradeable packages daily in the backgrou
   
 </details>
 
+### fzf
+For fuzzy file and command line history searching
+ 
 ## Terminal
 ghostty
 
