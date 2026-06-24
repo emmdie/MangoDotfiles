@@ -1,0 +1,4 @@
+[[language]]
+name = "markdown"
+comment-tokens = ["-", "+", "*", "- [ ]", ">"]
+formatter = { command = "dprint", args = ["fmt", "--stdin", "md"]}
