@@ -67,7 +67,10 @@ This requires two scripts to download upgradeable packages daily in the backgrou
 
 ### fzf
 For fuzzy file and command line history searching
- 
+
+## Music
+- mpd
+- rmpc with the config and gruvbox themes adapted from [this repo](https://github.com/embeddingBits/arch_dotfiles/blob/main/gruvbox_config/.config/rmpc/config.ron)
 ## Terminal
 ghostty
 
