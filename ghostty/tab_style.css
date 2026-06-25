@@ -1,0 +1,13 @@
+tabbar {
+  margin: -12px;
+}
+
+tabbar tabbox tab:selected {
+  background-color: #3C3836;
+  color: #fabd2f;
+}
+
+tabbar tabbox tab {
+  color: #9ca3af;
+  border-right: 1px solid #374151;
+}
