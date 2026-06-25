@@ -4,7 +4,3 @@ theme = "gruvbox"
 # Sync clipboard with system clipboard
 default-yank-register = "+"
 end-of-line-diagnostics = "hint"
-
-[[language]]
-name = "markdown"
-comment-tokens = ["-", "+", "*", "- [ ]", ">"]
