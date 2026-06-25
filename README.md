@@ -100,7 +100,7 @@ wayfreeze, grim, slurp
 
 ## Browser
 
-- Firefox with mtab, Slop evader, keepassxc, uBlock origin, pawBlock and gruvbox dark theme
+- Firefox with mtab, Slop evader, keepassxc, uBlock origin, pawBlock, unhook, tolerable discord and gruvbox dark theme
 
 ## Utils
 
