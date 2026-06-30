@@ -85,9 +85,10 @@ For fuzzy file and command line history searching
 - mpd
 - rmpc with the config and gruvbox themes adapted from [this repo](https://github.com/embeddingBits/arch_dotfiles/blob/main/gruvbox_config/.config/rmpc/config.ron)
 
-## Terminal
+## Terminal - ghostty
 
-ghostty
+- Includes browser like hotkeys for tab navigation
+- Includes custom tab bar CSS to change the look, make it smaller and fit better with gruvbox
 
 ## Screenshots
 

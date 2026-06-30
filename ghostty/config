@@ -3,7 +3,7 @@ theme = Gruvbox Dark
 shell-integration = fish
 background-opacity = 0.8 
 mouse-hide-while-typing = true
-bell-features = true
+bell-features = system,attention,title
 
 # Default tab bar is to chonky for me
 gtk-custom-css = ./tab_style.css
@@ -12,3 +12,4 @@ gtk-custom-css = ./tab_style.css
 keybind = super+r=clear_screen
 keybind = ctrl+w=close_tab
 keybind = ctrl+t=new_tab
+keybind = ctrl+f=start_search
