@@ -14,6 +14,7 @@ Current config for my laptop. Built arround MangoWC with [Gruvbox](https://githu
 - Bar: [waybar](https://github.com/alexays/waybar)
   - The config includes only modules essential for me to avoid visual clutter
   - The Battery widget features a hardcoded battery selection (BAT0) due to crashes when unplugging a webcam with battery. You might want to modify this when running a multi-battery laptop
+- Application launcher: [raffi](https://chmouel.github.io/raffi/), an application launcher that sits on top of Fuzzel or operates using its own built-in native interface
 
 ### Screenshots
 
@@ -100,7 +101,6 @@ For fuzzy file and command line history searching
 - Includes custom tab bar CSS to change the look, make it smaller and fit better with gruvbox
 - [Smear](https://github.com/sahaj-b/ghostty-cursor-shaders)
 
-
 ## Browser
 
 - Firefox with mtab, Slop evader, keepassxc, uBlock origin, pawBlock, unhook, tolerable discord and gruvbox dark theme
@@ -110,8 +110,10 @@ For fuzzy file and command line history searching
 - yazi
 
 ## Text Editor - Helix
+
 - Remember to fetch and build grammars :)
 - TODO: Check if helix finally has support for cursor smear :(
+
 ## Utils
 
 ### System
@@ -121,3 +123,10 @@ For fuzzy file and command line history searching
 ### Productivity
 
 - pomotime (installed via pipx)
+- presenterm for terminal based presentations
+
+# To Do:
+
+## Check out:
+
+- [Nyxt](https://nyxt.atlas.engineer/)
