@@ -1,4 +1,44 @@
 [[language]]
+name = "python"
+formatter = { command = "ruff", args = ["format", "-"] }
+
+[[language]]
+name = "bash"
+formatter = { command = "shfmt" }
+
+[[language]]
+name = "fish"
+formatter = { command = "fish_indent" }
+
+[[language]]
+name = "cpp"
+formatter = { command = "clang-format" }
+
+[[language]]
+name = "css"
+formatter = { command = "prettier", args = ["--parser", "css"] }
+
+[[language]]
+name = "html"
+formatter = { command = "prettier", args = ["--parser", "html"] }
+
+[[language]]
+name = "dockerfile"
+formatter = { command = "dprint", args = ["fmt", "--stdin", "dockerfile"] }
+
+[[language]]
+name = "gdscript"
+formatter = { command = "gdformat", args = ["-"] }
+
+[[language]]
+name = "latex"
+formatter = { command = "latexindent", args = ["-"] }
+
+[[language]]
 name = "markdown"
 comment-tokens = ["-", "+", "*", "- [ ]", ">"]
 formatter = { command = "dprint", args = ["fmt", "--stdin", "md"]}
+
+[[language]]
+name = "ini"
+file-types = ["ini", "cfg", "conf", { glob = ".*rc" }, { glob = "*.env" }]

@@ -15,6 +15,15 @@ Current config for my laptop. Built arround MangoWC with [Gruvbox](https://githu
   - The config includes only modules essential for me to avoid visual clutter
   - The Battery widget features a hardcoded battery selection (BAT0) due to crashes when unplugging a webcam with battery. You might want to modify this when running a multi-battery laptop
 
+### Screenshots
+
+[msnap](https://github.com/xtheeq/msnap), a screenshots (and more!) utility specifically for mango
+
+### lock screen
+
+- swayidle
+- swaylock
+
 ## Shell
 
 Fish (required for layout script, chose this because of jvns.ca recommendation)
@@ -90,20 +99,19 @@ For fuzzy file and command line history searching
 - Includes browser like hotkeys for tab navigation
 - Includes custom tab bar CSS to change the look, make it smaller and fit better with gruvbox
 - [Smear](https://github.com/sahaj-b/ghostty-cursor-shaders)
-- 
-## Screenshots
 
-wayfreeze, grim, slurp
-
-## lock screen
-
-- swayidle
-- swaylock
 
 ## Browser
 
 - Firefox with mtab, Slop evader, keepassxc, uBlock origin, pawBlock, unhook, tolerable discord and gruvbox dark theme
 
+## File Manager
+
+- yazi
+
+## Text Editor - Helix
+- Remember to fetch and build grammars :)
+- TODO: Check if helix finally has support for cursor smear :(
 ## Utils
 
 ### System
