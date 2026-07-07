@@ -1,0 +1,18 @@
+version: 1
+
+general:
+  ui_type: native
+  font_size: 20
+  window_width: 600
+  window_height: 500
+  theme: dark
+  theme_colors:
+    bg_base: '#282828'
+    bg_input: '#3c3836'
+    accent: '#d79921'
+    accent_hover: '#fabd2f'
+    text_main: '#ebdbb2'
+    text_muted: '#a89984'
+    selection_bg: '#504945'
+    border: '#665c54'
+launchers: {}
