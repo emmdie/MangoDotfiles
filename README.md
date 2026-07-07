@@ -89,7 +89,8 @@ For fuzzy file and command line history searching
 
 - Includes browser like hotkeys for tab navigation
 - Includes custom tab bar CSS to change the look, make it smaller and fit better with gruvbox
-
+- [Smear](https://github.com/sahaj-b/ghostty-cursor-shaders)
+- 
 ## Screenshots
 
 wayfreeze, grim, slurp
