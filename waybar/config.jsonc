@@ -8,12 +8,12 @@
   "reload_style_on_change": true,
   "fixed-center": false,
   "modules-left": [
-    "custom/layout",
-    "dwl/tags",
+    "mango/layout",
+    "mango/workspaces",
     "wlr/taskbar"
   ],
   "modules-center": [
-    "dwl/window"
+    "mango/window"
   ],
   "modules-right": [
     "network",
@@ -26,12 +26,15 @@
     "tray",
     "custom/notification"
   ],
-  "dwl/tags": {
-    "num-tags": 9,
-    "hide-vacant": true
-  },
-  "dwl/window": {
+  "mango/window": {
     "format": "{}"
+  },
+  "mango/workspaces": {
+    "format": "{icon}",
+    "hide-empty": true,
+    "on-click": "activate",
+    "on-click-right": "toggle",
+    "overview-label": "OVERVIEW"
   },
   "custom/notification": {
     "tooltip": false,
@@ -154,9 +157,7 @@
       ""
     ]
   },
-  "custom/layout": {
-    "exec": "~/.config/waybar/scripts/layout.fish",
-    "restart-interval": 1,
+  "mango/layout": {
     "format": "{}"
   }
 }
