@@ -103,7 +103,7 @@ For fuzzy file and command line history searching
 
 ## Browser
 
-- Firefox with mtab, Slop evader, keepassxc, uBlock origin, pawBlock, unhook, tolerable discord and gruvbox dark theme
+- Firefox with mtab, Slop evader, keepassxc, uBlock origin, pawBlock, unhook, tolerable discord, Sponsor Block, Return Youtube Dislike and gruvbox dark theme
 
 ## File Manager
 
