@@ -5,6 +5,7 @@ theme = "gruvbox"
 default-yank-register = "+"
 end-of-line-diagnostics = "hint"
 
+bufferline = "multiple"
 cursorline = true
 
 [editor.cursor-shape]

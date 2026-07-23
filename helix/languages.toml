@@ -42,3 +42,13 @@ formatter = { command = "dprint", args = ["fmt", "--stdin", "md"]}
 [[language]]
 name = "ini"
 file-types = ["ini", "cfg", "conf", { glob = ".*rc" }, { glob = "*.env" }]
+
+# languages.toml
+[language-server.mangolsp]
+command = "mangolsp"
+
+[[language]]
+name = "mango"
+scope = "source.mango"
+file-types = [{ glob = ".config/mango/**/*.conf" }, { glob = "/etc/mango/*.conf" }]
+language-servers = ["mangolsp"]
