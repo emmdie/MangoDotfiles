@@ -1,0 +1,16 @@
+# Auto-detected by name regex. Override only if you have a non-standard pad.
+# device = "/dev/input/event4"
+# device_name_regex = "Synaptics.*TM3562"
+
+[scroll]
+enable               = true   # master enable
+reverse_vertical     = false  # flip vertical scroll direction
+horizontal_enable    = false  # enable bottom-edge horizontal-scroll wedge
+reverse_horizontal   = false
+sensitivity          = -1      # -2..+2 ; lower = less sensitive
+detect_area_width    = 0      # 0..10 ; 0 = outer ring only, 10 = whole pad
+horizontal_start     = 2      # arc start in π/8 units (2 → 45°)
+horizontal_end       = 6      # arc end in π/8 units (6 → 135°)
+
+[log]
+level = "info"  # trace | debug | info | warn | error
