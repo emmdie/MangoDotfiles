@@ -1,1 +1,4 @@
-@theme "gruvbox-dark"
+@theme "~/.config/rofi/gruvbox-light.rasi"
+configuration {
+    show-icons: true;
+}

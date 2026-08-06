@@ -20,7 +20,8 @@
     "pulseaudio",
     "pulseaudio#microphone",
     "backlight",
-    "battery",
+    "battery#bat0",
+    "battery#bat1",
     "clock",
     "idle_inhibitor",
     "tray",
@@ -137,8 +138,28 @@
     "on-scroll-down": "pamixer --default-source -d 2",
     "scroll-step": 5
   },
-  "battery": {
-    "bat": "BAT0", // <-- I experienced waybar crashes when unplugging and plugging my Laptop from the doc. This was due to the battery of my logitech webcam apparently being detected. 
+  "battery#bat0": {
+    "bat": "BAT0", // <-- I experienced waybar crashes when unplugging and plugging my Laptop from the dock. This was due to the battery of my logitech webcam apparently being detected. 
+    "states": {
+      "good": 95,
+      "warning": 30,
+      "critical": 15
+    },
+    "format": "{capacity}% {icon}",
+    "format-full": "{capacity}% {icon}",
+    "format-charging": "{capacity}% 󰃨",
+    "format-plugged": "{capacity}% ",
+    "format-alt": "{time} {icon}",
+    "format-icons": [
+      "",
+      "",
+      "",
+      "",
+      ""
+    ]
+  },
+    "battery#bat1": {
+    "bat": "BAT1", // <-- My other laptop has a different battery id
     "states": {
       "good": 95,
       "warning": 30,

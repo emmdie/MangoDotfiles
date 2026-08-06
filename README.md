@@ -15,7 +15,9 @@ Current config for my laptop. Built arround MangoWC with [Gruvbox](https://githu
   - The config includes only modules essential for me to avoid visual clutter
   - The Battery widget features a hardcoded battery selection (BAT0) due to crashes when unplugging a webcam with battery. You might want to modify this when running a multi-battery laptop
 - Application launcher: [raffi](https://chmouel.github.io/raffi/), an application launcher that sits on top of Fuzzel or operates using its own built-in native interface
-
+### Wallpapers
+- Swaybg to set images
+- https://github.com/AngelJumbo/gruvbox-wallpapers/tree/main
 ### Screenshots
 
 [msnap](https://github.com/xtheeq/msnap), a screenshots (and more!) utility specifically for mango
@@ -119,7 +121,7 @@ For fuzzy file and command line history searching
 ### System
 
 - Paccache for cleaning pacman cache
-
+- Support for Panasonic Let's Note Wheelpad: https://github.com/Nerahikada/letsnote-wheelpad
 ### Productivity
 
 - pomotime (installed via pipx)
