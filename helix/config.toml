@@ -1,4 +1,4 @@
-theme = "gruvbox"
+theme = "gruvbox_light"
 
 [editor]
 # Sync clipboard with system clipboard
