@@ -38,6 +38,7 @@ formatter = { command = "latexindent", args = ["-"] }
 name = "markdown"
 comment-tokens = ["-", "+", "*", "- [ ]", ">"]
 formatter = { command = "dprint", args = ["fmt", "--stdin", "md"]}
+soft-wrap.enable = true
 
 [[language]]
 name = "ini"

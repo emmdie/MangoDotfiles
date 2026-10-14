@@ -28,7 +28,7 @@ tooltip {
 #pulseaudio,
 #backlight,
 #network,
-#workspaces,
+
 #tray,
 #keyboard-state,
 #custom-notification,
@@ -138,8 +138,35 @@ tooltip {
   border-style: solid;
   border-color: #c9b890;
   margin-left: 4px;
-  padding-right: 6px;
-  padding-left: 4px;
+  padding: 0px 6px 0px 10px;
+}
+
+#workspaces button {
+  border: none;
+  background: none;
+  box-shadow: inherit;
+  text-shadow: inherit;
+  transition-duration: 0.3s;
+  color: #ddca9e;
+  padding: 1px 4px;
+  min-width: 0;
+}
+
+#workspaces button:hover {
+  color: #d79921;
+}
+
+#workspaces button.active,
+#workspaces button.overview {
+  background-color: #ddca9e;
+  color: #282828;
+  border-radius: 3px;
+}
+
+#workspaces button.urgent {
+  background-color: #ef5e5e;
+  color: #282828;
+  border-radius: 3px;
 }
 
 #custom-updates {

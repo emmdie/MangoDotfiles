@@ -69,5 +69,5 @@ set -g -x PIP_REQUIRE_VIRTUALENV true
 
 # Created by `pipx` on 2026-06-12 08:47:33
 set PATH $PATH /home/emmdie/.local/bin
-alias cp /usr/local/bin/advcp -g
-alias mv /usr/local/bin/advmv -g
+alias cp '/usr/local/bin/advcp -g'
+alias mv '/usr/local/bin/advmv -g'
